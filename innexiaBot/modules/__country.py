@@ -101,7 +101,7 @@ Time Zones:- {tom}
 Top Level Domain:- {lanester}
 wikipedia:- {wiki}</b>
 
-Gathered By Innexia.</b>
+𝐆𝐀𝐓𝐇𝐄𝐑𝐄𝐃 𝐁𝐘 𝐅𝐋𝐎𝐑𝐄𝐍𝐙𝐀.</b>
 """
     
     
