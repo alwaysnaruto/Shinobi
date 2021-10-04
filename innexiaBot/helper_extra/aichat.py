@@ -34,4 +34,4 @@ def get_session(chat_id):
     if not stark:
         return False
     else:
-        return lodau
+        return stark
