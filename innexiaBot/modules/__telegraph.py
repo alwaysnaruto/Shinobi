@@ -65,7 +65,7 @@ async def _(event):
             page_content = page_content.replace("\n", "<br>")
             response = telegraph.create_page(
                 title_of_page,
-                html_content=page_conten
+                html_content=page_content
             )
             end = datetime.now()
             ms = (end - start).seconds
