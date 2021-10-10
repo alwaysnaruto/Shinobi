@@ -85,13 +85,17 @@ buttons = [
             text="🚀 ᴀᴅᴅ ꜰʟᴏʀᴇɴᴢᴀ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ 🚀", url="http://t.me/Florenza_bot?startgroup=true"),
     ],
     [
+        InlineKeyboardButton(
+            text="📜 Your Info", url="tg://settings"),
+    ],
+    [
         InlineKeyboardButton(text="🔱 ᴅᴇᴠꜱ 🔱", url=f"https://t.me/Florenza_Devs"),
         InlineKeyboardButton(
             text="🎵 ᴠᴄ ᴘʟᴀʏᴇʀ 🎵", url=f"https://telegram.dog/Florenza_Assistant"
         ),
     ],
     [
-        InlineKeyboardButton(text="⚜ ꜱᴜᴘᴘᴏʀᴛ ⚜", url=f"https://t.me/Florenza_support"),
+        InlineKeyboardButton(text="🚑 ꜱᴜᴘᴘᴏʀᴛ 🚑", url=f"https://t.me/Florenza_support"),
         InlineKeyboardButton(
             text="ᴜᴘᴅᴀᴛᴇꜱ 🚨", url=f"https://t.me/Florenza_updates"
         ),
