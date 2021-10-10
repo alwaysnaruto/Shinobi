@@ -87,7 +87,7 @@ buttons = [
     [
         InlineKeyboardButton(text="🔱 ᴅᴇᴠꜱ 🔱", url=f"https://t.me/Florenza_Devs"),
         InlineKeyboardButton(
-            text="ᴠᴄ ᴘʟᴀʏᴇʀ", url=f"https://telegra.ph/𝗕ooo-09-17-2"
+            text="🎵 ᴠᴄ ᴘʟᴀʏᴇʀ 🎵", url=f"https://telegram.dog/Florenza_Assistant"
         ),
     ],
     [
