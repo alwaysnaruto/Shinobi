@@ -75,29 +75,29 @@ def get_readable_time(seconds: int) -> str:
 INNEXIA_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 
 PM_START_TEXT = """
-`ʜᴇʟʟᴏ` 🤗 `ɪ ᴀᴍ` [ꜰʟᴏʀᴇɴᴢᴀ](https://telegra.ph/file/16bf7f2e7ca1543cb7694.jpg) ` ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ`
+`ʜᴇʟʟᴏ ʙsᴅᴋ` 🤗 `ɪ ᴀᴍ` [sʜɪɴᴏʙɪ](https://telegra.ph/file/a0effec1119e0b96b6a44.jpg) ` ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ`
 `ɪ ᴀᴍ ᴠᴇʀʏ ꜰᴀꜱᴛ ᴀɴᴅ  ᴍᴏʀᴇ ᴇꜰꜰɪᴄɪᴇɴᴛ  ɪ ᴘʀᴏᴠɪᴅᴇ ᴀᴡᴇꜱᴏᴍᴇ  ꜰᴇᴀᴛᴜʀᴇꜱ ᴡʜɪᴄʜ ᴀ ᴏᴡɴᴇʀ ᴡɪʟʟ ʟᴏᴏᴋ ꜰᴏʀ  ꜰɪʟᴛᴇʀ ,ᴡᴀʀɴ ꜱʏꜱᴛᴇᴍ,ꜱᴀᴠᴇ ɴᴏᴛᴇꜱ, ꜰʟᴏᴏᴅ, ʙᴀɴ ᴀɴᴅ ᴍᴏʀᴇ!`
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🚀 ᴀᴅᴅ ꜰʟᴏʀᴇɴᴢᴀ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ 🚀", url="http://t.me/Florenza_bot?startgroup=true"),
+            text="🚀 ᴀᴅᴅ sʜɪɴᴏʙɪ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ 🚀", url="http://t.me/TheShinobi_Bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-            text="📜 Your Info", url="tg://settings"),
+            text="🔥Biggest Randi on tg ", url="tg://settings"),
     ],
     [
-        InlineKeyboardButton(text="🔱 ᴅᴇᴠꜱ 🔱", url=f"https://t.me/Florenza_Devs"),
+        InlineKeyboardButton(text="🔱 ᴅᴇᴠ 🔱", url=f"https://t.me/r0ckstar_xd"),
         InlineKeyboardButton(
-            text="🎵 ᴠᴄ ᴘʟᴀʏᴇʀ 🎵", url=f"https://telegram.dog/Florenza_Assistant"
+            text="🎵 ᴠᴄ ᴘʟᴀʏᴇʀ 🎵", url=f"https://t.me/TheShinobi_Assistant"
         ),
     ],
     [
-        InlineKeyboardButton(text="🚑 ꜱᴜᴘᴘᴏʀᴛ 🚑", url=f"https://t.me/Florenza_support"),
+        InlineKeyboardButton(text="🚑 ꜱᴜᴘᴘᴏʀᴛ 🚑", url=f"https://t.me/TheShinobi_Support"),
         InlineKeyboardButton(
-            text="ᴜᴘᴅᴀᴛᴇꜱ 🚨", url=f"https://t.me/Florenza_updates"
+            text="ᴜᴘᴅᴀᴛᴇꜱ 🚨", url=f"https://t.me/ShinobiBot_Updates"
         ),
     ],
     [
@@ -496,7 +496,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *Florenza*
+            text=""" Hi..😻 I'm *Shinobi*
                  \nHere is the [🔥Source Code🔥](https://github.com/T5fr0ck5t4r/flozenzabot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -798,7 +798,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I Aᴍ Aʟɪᴠᴇ 🔥")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "ZINDA HU BSDK HALKE ME LE RHA 😏🔥")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
