@@ -555,7 +555,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ 📢 ",
-                            url="https://t.me/{}".format(SUPPORT_CHAT),
+                            url="https://t.me/TheShinobi_Support".format(SUPPORT_CHAT),
                         )
                     ],
                 ]
