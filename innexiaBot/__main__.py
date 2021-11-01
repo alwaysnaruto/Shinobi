@@ -86,7 +86,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🔥Owner op", url=f"https://t.me/Naruto_Xdd")),
+            text="🔥Owner op", url=f"https://t.me/Naruto_Xdd"),
     ],
     [
         InlineKeyboardButton(text="🔱 ᴅᴇᴠ 🔱", url=f"https://t.me/r0ckstar_xd"),
