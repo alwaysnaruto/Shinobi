@@ -86,7 +86,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🔥Biggest Randi on tg ", url="tg://settings"),
+            text="🔥Owner op", url=f"https://t.me/Naruto_Xdd")),
     ],
     [
         InlineKeyboardButton(text="🔱 ᴅᴇᴠ 🔱", url=f"https://t.me/r0ckstar_xd"),
