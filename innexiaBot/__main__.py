@@ -91,7 +91,7 @@ buttons = [
     [
         InlineKeyboardButton(text="🔱 ᴅᴇᴠ 🔱", url=f"https://t.me/r0ckstar_xd"),
         InlineKeyboardButton(
-            text="🎵 ᴠᴄ ᴘʟᴀʏᴇʀ 🎵", url=f"https://t.me/TheShinobi_Assistant"
+            text="🎵 ᴠᴄ ᴘʟᴀʏᴇʀ 🎵", url=f"https://t.me/Shinobi_Assistant"
         ),
     ],
     [
